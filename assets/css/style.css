@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body{
+  text-align: center;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.container{
+  max-width: 1981px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+header{
+  background-color: #E5E5E5;
+}
+
+.logo_text{
+  display: flex;
+  justify-content:space-around;
+  min-height: 400px;
+  align-items: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+.sitename a{
+
+  font-family: Josefin Sans;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  color: #0088A2;
+  white-space: nowrap;
+
+}
+
+
+ul{
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  text-align: center;
+  flex: 0 1 20%;
+}
+
+.header2{
+  background: #808080;
+}
+li:hover{
+  background: #0088A2;
+}
+
+
+
+
+
+ul a{
+  font-family: Open Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+
+}
+.statystic{
+  border-bottom: 13px solid #E5E5E5;
+  margin-bottom: 10px;
+}
+.fotos{
+  display: flex;
+  justify-content: space-between;
+  min-height: 515px;
+  align-items: center;
+  padding: 0 15px;
+}
+.foto{
+  position: relative;
+  margin: 0 10px;
+
+}
+
+.quastion{
+  max-width: 370px;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.quastion p{
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+
+}
+
+h3{
+  font-family: Open Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0088A2;
+}
+.info_row{
+  margin-bottom: 35px;
+}
+.video {
+  position: relative;
+}
+
+.button{
+  min-width: 128px;
+  min-height: 128px; 
+  position: absolute;
+  background: url(../images/play-button.png) center / 100% 100% no-repeat;
+  top: 43%;
+  left: 47%;
+}
+.items{
+  border-bottom: 13px solid #E5E5E5;
+}
+.item_row{
+  min-height: 1015px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.first{
+  position: absolute;
+  top: 16%;
+  left: 11%;
+}
+.second{
+  position: absolute;
+  top: 25%;
+  left: 26%;
+}
+.third{
+  position: absolute;
+  top: 16%;
+  left: 42.9%;
+}
+.fourth{
+  position: absolute;
+  top: 25%;
+  left: 58%;
+}
+.fives{
+  position: absolute;
+  top: 16%;
+  left: 73.3%
+}
+
+.tema{
+  min-height: 160px;
+}
+h2{
+  font-family: Open Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131px;
+  color: #0088A2;
+}
+.about{
+   border-bottom: 13px solid #E5E5E5;
+}
+.about_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paragraph{
+  max-width: 1270px;
+  min-height: 383px;
+  margin-top: 30px;
+}
+.paragraph p{
+  font-family: Roboto;
+  font-size: 48px;
+  color: #707070;
+}
+
+.download_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 1000px;
+
+}
+.icons{
+  max-width: 1960px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.info{
+  max-width: 1470px;
+}
+
+.info p{
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 42px;
+  color: #707070;
+}
+footer{
+  background: #0088A2;
+}
+h1{
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 96px;
+  display: flex;
+  color: #FFFFFF;
+}
+.footer_row{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 700px;
+}
+.items2{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.information{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+h4{
+  font-family: Open Sans;
+  font-size: 50px;
+  color: #FDFDFD;
+  margin-bottom: 30px;
+}
+h6 {
+  font-family: Open Sans;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+
+
+/*////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 1600px) {
+   .container{
+    min-width: 1200px;
+   }
+   .sitename a{
+    font-size: 50px;
+   }
+   .logo_text{
+    min-height: 220px;
+   }
+   ul a{
+    font-size: 24px;
+    line-height: 40px;
+   }
+   .quastion p{
+    font-size: 18px;
+   }
+   .quastion{
+    max-width: 250px;
+    left: 25%;
+   }
+   .fotos{
+    min-height: 300px;
+   }
+   .statystic{
+    border-bottom: 7px solid #E5E5E5;
+   }
+   h3{
+    line-height: 100px;
+    font-size: 70px;
+   }
+   
+  
+   .item_row{
+    min-height: 650px;
+   }
+   .first{
+    top: 7%;
+   }
+   .third{
+    top: 7%;
+   }
+   .second{
+    top: 16%;
+   }
+   .fourth{
+    left: 63%;
+    top: 16%;
+   }
+   .fives{
+    display: none;
+   }
+   .items{
+    border-bottom: 7px solid #E5E5E5;
+   }
+   h2{
+     font-size: 70px;
+   }
+   .paragraph p{
+    font-size: 30px;
+   }
+   .paragraph{
+     min-height: 200px;
+     margin-top: 25px;
+   }
+   .info p{
+    font-size: 30px;
+   }
+   img{
+    width: 80%;
+    height: 80%;
+   }
+   .footer_row{
+    min-height: 450px;
+    margin-bottom: 15px;
+   }
+   h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+   }
+
+   h6{
+    font-size: 18px;
+    line-height: 30px;
+   }
+   h1{
+    font-size: 55px;
+   }
+   .download_column{
+    min-height: 700px;
+   }
+}
